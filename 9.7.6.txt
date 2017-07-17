@@ -1,0 +1,5 @@
+Considering that the array is already sorted, a binary sort would be a great way to search for the location to add in a new element.
+This is due to the fact that binary search works by finding a midpoint in the array, and checking if the element is greater than or less than this midpoint.
+Then it continues by using a subarray on either side to check the element against the midpoint of that array until it reaches the desired location.
+As linear search may need to loop the full array to find the data, the time complexity would be O(n).
+binary search only has to search half of the array in the worst case, giving a time complexity of O(log n).
